@@ -56,7 +56,7 @@ export default function ProfilePage() {
         <div className="container mx-auto flex justify-between items-center px-4">
           <div className="text-lg font-semibold">
             <Link href="/" className="hover:text-gray-300">
-              Home
+              Home jenkins 
             </Link>
           </div>
           <div className="flex space-x-6">
