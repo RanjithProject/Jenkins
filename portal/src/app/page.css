@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+}
+
+.calendar{
+    width: 400px;
+    background-color: #fff;
+    color: black;
+    margin: 50px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 5px;
+}
+
+button{
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: black;
+}
+
+select{
+    font-size: 18px;
+    padding: 0px 8px;
+    border: 1px solid #3498db;
+    border-radius: 4px;
+    margin: 0 10px;
+}
+
