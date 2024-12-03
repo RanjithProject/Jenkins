@@ -21,8 +21,6 @@ export default function LeaveCalendarView() {
     const lastDay = new Date(selectedDate.getFullYear(), selectedDate.getMonth() + 1, 0);
 // console.log(firstDay);
 // console.log(lastDay);
-
-
 // console.log(employeeId);
 
     useEffect(()=>{
