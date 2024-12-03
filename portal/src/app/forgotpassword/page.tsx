@@ -14,7 +14,6 @@ export default function ForgotPasswordPage() {
   const [loading, setLoading] = React.useState(false);
 
   const onSubmit = async () => {
-   
     
     try {
         setLoading(true);

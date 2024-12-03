@@ -19,7 +19,9 @@ export default function LeaveCalendarView() {
     const daysArray = [];
     const firstDay = new Date(selectedDate.getFullYear(), selectedDate.getMonth(), 1);
     const lastDay = new Date(selectedDate.getFullYear(), selectedDate.getMonth() + 1, 0);
-
+// console.log(firstDay);
+// console.log(lastDay);
+// console.log(employeeId);
 
     useEffect(()=>{
            // Fetch leave status from the backend API
